@@ -1,6 +1,6 @@
 # ================  IMAP ====================
 set imap_user = alshahamameer@gmail.com
-set imap_pass =
+set imap_pass = 
 set spoolfile = imaps://imap.gmail.com/INBOX
 set folder = imaps://imap.gmail.com/
 set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
@@ -22,6 +22,7 @@ unset use_domain        # because joe@localhost is just embarrassing
 set realname = "Al Shaham Ameer"
 set from = "alshahamameer@gmail.com"
 set use_from = yes
+
 
 set sort = reverse-date-received
 
