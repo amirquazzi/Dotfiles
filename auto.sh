@@ -13,6 +13,6 @@ while true; do
 	BAT=$(acpi | awk '{print $4}' | sed s/,//)
 	VOL=$(amixer get Master | tail -n1 | sed -r 's/.*\[(.*)%\].*/\1/')
 
-        xsetroot -name " $NET  |   $BAT  |   $BRIGHT%  |   $VOL%  |  $DAT "
+        xsetroot -name " $NET  |   $BAT  |   $BRIGHT%  |   $VOL%  |  $DAT "
         sleep 1s
 done &
