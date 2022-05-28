@@ -14,7 +14,14 @@ alias ip='ip -c'
 alias ls='lsd --icon-theme unicode'
 alias grep='grep --color'
 #PS1='[\u@\h \W]\$ '
-PS1='\w > '
+#PS1='\w > '
+#PS1='\w  '
+#PS1='\e[0;31m\w  \e[m' ##red
+#PS1='\e[0;32m\w  \e[m' ##green
+#PS1='\e[0;33m\w  \e[m' ##yellow
+PS1='\e[0;34m\w  \e[m' ##blue
+#PS1='\e[0;35m\w  \e[m' ##purple
+#PS1='\e[0;36m\w  \e[m' ##cyan
 
 export Editor='vim'
 
