@@ -19,9 +19,12 @@ alias grep='grep --color'
 #PS1='\e[0;31m\w  \e[m' ##red
 #PS1='\e[0;32m\w  \e[m' ##green
 #PS1='\e[0;33m\w  \e[m' ##yellow
-PS1='\e[0;34m\w  \e[m' ##blue
+#PS1='\e[0;34m\w  \e[m' ##blue
 #PS1='\e[0;35m\w  \e[m' ##purple
 #PS1='\e[0;36m\w  \e[m' ##cyan
+
+PS1='\e[1;34m\w  \e[m' ##blue
+#PS1='\e[1;35m\w  \e[m' ##purple
 
 export Editor='vim'
 
